@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consulta CEP</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/img/google-maps.png" />
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style-mobile.css">
+    <!--Fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="background">
+      <img src="assets/img/fundo.webp" alt="" />
+    </div>
+
+    <main class="container">
+      <h2>Consulta CEP</h2>
+      <p>Digite o CEP para obter informações essenciais sobre o endereço.</p>
+      <section class="busca-cep">
+        <input
+          type="number"
+          maxlength="9"
+          id="cep"
+          placeholder="Digite apenas números..."
+        />
+        <button id="btn-cep">Buscar</button>
+      </section>
+      <section id="box-endereco"></section>
+    </main>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
